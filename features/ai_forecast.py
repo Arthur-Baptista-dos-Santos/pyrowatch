@@ -59,7 +59,7 @@ def render_ai_forecast(fire_df, climate_df):
     with tab_a:
         fig = px.line(
             forecast_filtered, x="date", y="risk_score", color="state",
-            title=f"Score de Risco Previsto — próximos {horizon} dias",
+            title=f"Score de Risco Previsto | próximos {horizon} dias",
             labels={"date": "Data", "risk_score": "Score de Risco (0–1)", "state": "Estado"},
             template="plotly_dark",
             color_discrete_sequence=px.colors.qualitative.Bold,
