@@ -1,3 +1,5 @@
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-abs--pyrowatch.streamlit.app-FF4B4B?logo=streamlit&logoColor=white)](https://abs-pyrowatch.streamlit.app)
+
 # `PyroWatch: Dashboard de Monitoramento de Queimadas`
 
 > Plataforma de monitoramento de queimadas por satelite com modelo preditivo de risco baseado em features climaticas e historicas. Streamlit + Plotly, arquitetura modular com 7 modulos, 4 abas de analise. Global Solution 2026.1, FIAP.
